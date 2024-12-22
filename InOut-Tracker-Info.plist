@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Naziv aplikacije -->
+    <key>CFBundleName</key>
+    <string>InOut Tracker</string>
+
+    <!-- Identifikator paketa -->
+    <key>CFBundleIdentifier</key>
+    <string>com.nives.inout.InOut-Tracker</string>
+
+    <!-- Verzija aplikacije -->
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+
+    <!-- Interna verzija aplikacije -->
+    <key>CFBundleVersion</key>
+    <string>1</string>
+
+    <!-- Opis korištenja lokacije -->
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>This app needs location access to verify attendance.</string>
+
+    <!-- Opis korištenja Face ID autentifikacije -->
+    <key>NSFaceIDUsageDescription</key>
+    <string>We use Face ID to authenticate users for attendance tracking.</string>
+
+    <!-- Pravila za mrežni promet -->
+    <key>NSAppTransportSecurity</key>
+    <dict>
+        <key>NSAllowsArbitraryLoads</key>
+        <true/>
+    </dict>
+</dict>
+</plist>
